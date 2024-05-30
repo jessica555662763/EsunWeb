@@ -5,10 +5,10 @@ import com.example.esun.model.Product;
 
 import java.util.List;
 
-public class ProductService {
+public interface ProductService {
 
-    List<Product> getProducts();
+    List<Product> getAllProducts();
 
-    Product addProduct(product);
+    Product addProduct(Product product);
 
 }

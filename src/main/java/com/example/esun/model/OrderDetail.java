@@ -2,7 +2,6 @@ package com.example.esun.model;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import javax.persistence.*;
 
 @Getter
